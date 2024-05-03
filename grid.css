@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+#item-1{
+    background-color: orangered;
+}
+#item-2{
+    background-color: blueviolet;
+    display: grid;
+}
+#item-3{
+    background-color: aquamarine;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.grid-container1 {
+    background-color: black;
+    color: azure;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 170px;
+}
+.grid-container2{
+    height: 100%;
+    width: 100%;
+    border-color: azure;
+    border: 50px solid
+}
